@@ -15,7 +15,7 @@ import java.util.logging.Logger;
 /**
  * Created by mattiassvensson on 12/05/17.
  */
-public class testGoogle {
+public class TestGoogle {
 
     private static WebDriver driver;
     private static WebDriverWait wait;
