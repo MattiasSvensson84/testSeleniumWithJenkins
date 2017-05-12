@@ -27,7 +27,7 @@ public class TestGoogle {
 
     @Before
     public void setUp() throws Exception {
-        System.setProperty("webdriver.gecko.driver","/Users/mattiassvensson/IdeaProjects/TestSeleniumJenkins/geckodriver");
+        //System.setProperty("webdriver.gecko.driver","/Users/mattiassvensson/IdeaProjects/TestSeleniumJenkins/geckodriver");
         driver = new FirefoxDriver();
         wait = new WebDriverWait(driver, 3000);
         driver.manage().window().maximize();
